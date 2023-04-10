@@ -1,33 +1,34 @@
-# Unit testing with Jest
+# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) Unit testing with Jest
 
+✏ *Using the [jest framework](https://jestjs.io/) to create the first code tests*.
+
+## Instructions 📄
+
+<u>Open repository</u>:
+1. Open this repository in **Gitpod** and wait until LearnPack is loaded.
+2. Follow the *LearnPack Instructions* (run **learnpack start** in the terminal if instructions are not showed).
+
+<u>Run the exercise</u>:
+1. Initialize the project (this creates a *package.json* file in the project root):
+```bash
+$ npm init -y
 ```
-Important: 💻  This exercise is interactive.
-Please follow the instructions.
+
+2. Install Jest:
+```bash
+$ npm install jest --save
 ```
 
-Most developers today are required not only to write code, but they also need to write code to test their own code 😱, yes.. really.
+3. Open the *package.json* file and write ***jest --detectOpenHandles*** in the *scripts -> test* node (instead of "echo \"Error: no test specified\" && exit 1").
 
-Today we are going to be using the [jest framework](https://jestjs.io/) to create our first tests.
-
-## 🌱  How to start this project
-
-This project comes with the necessary files to start working, but you have two options to start:
-
-a) Use gitpod: open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-unit-test-with-jest.git
-
-b) You can clone this repository on your local computer:
-```sh
-$ git clone https://github.com/breatheco-de/exercise-unit-test-with-jest.git
+4. Run the next command to test:
+```bash
+$ npm run test
 ```
-💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
-Then follow this instructions:
+5. The exercise files are ***app.js*** and ***test.js*** (in the *test* folder)
 
-1. Get into the exercise folder: `$ cd exercise-unit-test-with-jest`
-2. Download learnpack globally (if you don't have it already): `$ npm i learnpack -g`
-3. Start the exercise: `$ learnpack start`
-
-## What is this exercise about?
+## What is this exercise about ❓
 
 We are going to be using the Jest library to build a program capable of converting numeric values from one currency to another:
 
@@ -35,5 +36,14 @@ We are going to be using the Jest library to build a program capable of converti
 | ----------------- | --------------------------------------------------------------------- |
 | fromDollarToYen   | Receives a dollar amount and returns equivalent amount in Japan Yen  |
 | fromEuroToDollar  | Receives a Euro amount and returns equivalent amount in US Dollar     |
-| fromYenToPound    | Receives a Yen amount and equivalent amount in England Pound          |
+| fromYenToPound    | Reveives a Yen amount and equivalent amount in England Pound          |
 
+## Sources 📌
+
+<https://learn.breatheco.de/course/full-stack.v4/12/p/unit-test-with-jest>
+
+<https://github.com/breatheco-de/exercise-unit-test-with-jest>
+
+<https://jestjs.io/>
+
+💻 _Juan Miguel Sáenz Martel_ (<https://github.com/juanmism>)
